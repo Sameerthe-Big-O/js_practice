@@ -1,0 +1,2 @@
+//*so basically the sort function takes the compare function as the inputs right and the most important thing is that if we want to sort in assending sort then we just give the a- b which essesntially means if the left side is smaller then the right side like in an array [1,2] it'll check if the 1 is less then the 2 then it'll return true and 1 will get placed firs but the b-a is if does reverse it say if the second is greater and if yes then it return that
+arr.sort((a, b) => b - a);
